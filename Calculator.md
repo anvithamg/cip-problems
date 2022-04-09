@@ -1,0 +1,51 @@
+##### Calculator 
+Easy Accuracy: 45.28% Submissions: 9098 Points: 2
+Lamp Geeks Summer Carnival is LIVE NOW   
+Given two numbers a and b; you need to perform basic mathematical operation on them. You will be provided an integer named as operator. 
+
+If operator equals to 1 add a and b, then print the result.
+
+If operator equals to 2 subtract a from b, then print the result.
+
+If operator equals to 3 multiply a and b, then print the result.
+
+If operator equals to any another number, print "Invalid Input"(without quotes).
+
+
+Example 1:
+
+Input:
+a = 1
+b = 2
+operator = 3
+Output: 
+2
+Explanation: 1 * 2 = 2
+Example 2:
+
+Input:
+a = 2
+b = 2
+operator = 2
+Output:
+0
+Explanation: 2 - 2 = 0
+
+Your Task: 
+Complete the function utility() with parameters as a, b and operator.
+```java
+public static void utility(int a, int b, int operator){
+
+    //write your code here
+    if(operator == 1)
+        System.out.print(a+b);
+    else if(operator == 2)
+        System.out.print(a-b);
+    else if(operator == 3)
+        System.out.print(a*b);
+    else
+        System.out.print("Invalid Input");
+    
+    
+}
+```
